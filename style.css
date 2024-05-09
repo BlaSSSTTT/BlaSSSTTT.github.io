@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Sedan SC';
+    src: url('/lvl1.3/SedanSC-Regular.ttf') format('truetype'); 
+}
+
+body {
+    font-family: 'Sedan SC', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.content {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    width: 100%;
+    max-width: 700px; 
+    margin: 0 auto; 
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    text-align: center; 
+    margin: 10% auto;
+}
+
+img {
+    flex: 0;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+}
