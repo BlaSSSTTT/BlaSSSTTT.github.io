@@ -1,10 +1,5 @@
-@font-face {
-    font-family: 'Sedan SC';
-    src: url('SedanSC-Regular.ttf') format('truetype'); 
-}
-
 body {
-    font-family: 'Sedan SC', sans-serif; 
+    font-family: 'Sedan SC', serif; 
     margin: 0; 
     padding: 0; 
 }
